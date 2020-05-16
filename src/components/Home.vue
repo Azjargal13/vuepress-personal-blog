@@ -4,12 +4,14 @@
       <v-row class="text-center ma-10">
         <v-col md="3">
           <kinesis-element :strength="15" type="depth">
-            <img :src="codingSVG" alt height="60" class="pa-2 codingImg" />
+            <img :src="codingSVG" alt height="60" class="pa-2" />
+            <h2>Javascript/Typescript</h2>
           </kinesis-element>
         </v-col>
         <v-col md="6" class="ml-auto">
           <kinesis-element :strength="15">
             <img :src="writeSVG" alt height="60" class="pa-2" />
+            <h2>Hobbyist blog writer</h2>
           </kinesis-element>
         </v-col>
       </v-row>
@@ -17,11 +19,13 @@
         <v-col md="2" class="ml-md-auto">
           <kinesis-element :strength="15">
             <img :src="bookSVG" alt height="60" class="pa-2" />
+            <h2>bibliophile</h2>
           </kinesis-element>
         </v-col>
         <v-col md="3" class="ml-md-auto">
           <kinesis-element :strength="15" type="rotate">
             <img :src="ideaSVG" alt height="60" class="pa-2" />
+            <h2>Idealist/Dreamer</h2>
           </kinesis-element>
         </v-col>
       </v-row>
@@ -29,19 +33,24 @@
         <v-col cols="auto" class="mr-auto">
           <kinesis-element :strength="15" type="rotate">
             <img :src="studentSVG" alt height="60" class="pa-2" />
+            <h2>Front-End Engineer</h2>
+            <h2>VueJs love</h2>
           </kinesis-element>
         </v-col>
         <v-col cols="auto">
           <kinesis-element :strength="15">
             <img :src="travelSVG" alt height="60" class="pa-2" />
+            <h2>Travel love</h2>
           </kinesis-element>
         </v-col>
       </v-row>
+      <v-row align="center" justify="center">
+        <kinesis-element :strength="15">
+          <v-img :src="myImg" contain class="myImg" max-width="200" max-height="200"></v-img>
+        </kinesis-element>
+      </v-row>
+      <h1 class="display mt-3 d-flex justify-center">Azjargal Gankhuyag</h1>
       <v-row>
-        <v-col cols="12">
-          <v-img :src="myImg" contain height="200" />
-          <h1 class="display mb-3 text-center">Azjargal Gankhuyag</h1>
-        </v-col>
         <v-col class="d-flex justify-center ma-0">
           <v-btn class="mx-1" fab dark small color="grey">
             <v-icon>$blog</v-icon>
@@ -60,8 +69,14 @@
           </v-btn>
         </v-col>
       </v-row>
+      <h2 class="display ma-4 d-flex justify-center">
+        <kinesis-element :strength="1" type="scale">
+          Life motto:
+          <span v-for="m in motto" :key="m">{{m}}</span>
+        </kinesis-element>
+      </h2>
     </kinesis-container>
-    <v-footer padless absolute>
+    <v-footer padless>
       <v-col class="text-center" cols="12">
         <p class="overline">
           made with
@@ -85,7 +100,7 @@
 import Vue from "vue";
 
 export default Vue.extend({
-  name: "HelloWorld",
+  name: "Home",
 
   data: () => ({
     codingSVG: require("../assets/coding.svg"),
@@ -95,40 +110,15 @@ export default Vue.extend({
     travelSVG: require("../assets/travel.svg"),
     writeSVG: require("../assets/write.svg"),
     myImg: require("../assets/me.jpg"),
-    justify: ["start", "end", "center", "baseline", "auto", "stretch"]
+    justify: ["start", "end", "center", "baseline", "auto", "stretch"],
+    motto: "vivere memento"
   })
 });
 </script>
 
 <style scoped>
-.codingImg {
-  position: relative;
-  /* left: 130px;
-  top: 100px; */
-}
-.bookImg {
-  position: relative;
-  /* left: 500px;
-  top: 150px; */
-}
-.ideaImg {
-  position: relative;
-  /* left: 1550px;
-  top: 260px; */
-}
-.studentImg {
-  position: relative;
-  /* top: 300px;
-  left: 150px; */
-}
-.travelImg {
-  position: relative;
-  /* left: 1000px;
-  top: 230px; */
-}
-.writeImg {
-  position: relative;
-  /* left: 1200px;
-  top: 120px; */
+.myImg {
+  border-radius: 50px;
+  border: 5px solid #dbdbdb;
 }
 </style>

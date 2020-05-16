@@ -11,20 +11,20 @@
         <v-btn text color="grey">Project</v-btn>
         <v-btn text color="grey">About</v-btn>
       </v-app-bar>
-      <HelloWorld />
+      <Home />
     </v-content>
   </v-app>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import Home from "./components/Home.vue";
 
 export default Vue.extend({
   name: "App",
 
   components: {
-    HelloWorld
+    Home
   },
 
   data: () => ({
