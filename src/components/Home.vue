@@ -34,7 +34,7 @@
           <kinesis-element :strength="15" type="rotate">
             <img :src="studentSVG" alt height="60" class="pa-2" />
             <h2>Front-End Engineer</h2>
-            <h2>VueJs love</h2>
+            <h2>Vue.js love</h2>
           </kinesis-element>
         </v-col>
         <v-col cols="auto">
@@ -52,7 +52,7 @@
       <h1 class="display mt-3 d-flex justify-center">Azjargal Gankhuyag</h1>
       <v-row>
         <v-col class="d-flex justify-center ma-0">
-          <v-btn class="mx-1" fab dark small color="grey">
+          <v-btn class="mx-1" fab dark small color="grey" to="/blog1">
             <v-icon>$blog</v-icon>
           </v-btn>
 

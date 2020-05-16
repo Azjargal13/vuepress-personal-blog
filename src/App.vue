@@ -8,7 +8,7 @@
 
         <v-btn text color="grey" to="/blog1">Tech blog</v-btn>
         <v-btn text color="grey" to="/blog2">Personal blog</v-btn>
-        <v-btn text color="grey" to="/project">Project</v-btn>
+        <v-btn text color="grey" to="/project">Projects</v-btn>
         <v-btn text color="grey" to="/about">About</v-btn>
       </v-app-bar>
       <router-view></router-view>
