@@ -11,7 +11,8 @@ export default new Vuetify({
             git: "fab fa-github",
             linkedin: "fab fa-linkedin",
             insta: "fab fa-instagram",
-            blog: "fas fa-book-open"
+            blog: "fas fa-book-open",
+            heart: "fa-heart"
         }
     }
 });
