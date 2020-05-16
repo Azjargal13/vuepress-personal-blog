@@ -1,9 +1,10 @@
-.body {
+body {
     font-family: 'Cairo', sans-serif;
 }
 
 h1,
 h2,
-h3 {
+h3,
+p {
     font-family: 'Dosis', sans-serif;
 }

@@ -72,7 +72,7 @@
       <h2 class="display ma-4 d-flex justify-center">
         <kinesis-element :strength="1" type="scale">
           Life motto:
-          <span v-for="m in motto" :key="m">{{m}}</span>
+          <span v-for="m in motto" :key="m.id">{{m}}</span>
         </kinesis-element>
       </h2>
     </kinesis-container>
