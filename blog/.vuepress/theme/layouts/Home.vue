@@ -1,6 +1,8 @@
 <template>
   <v-container>
-    <kinesis-container>
+    <!-- <nav-bar /> -->
+    <h1 class="home">Its Home!</h1>
+    <!-- <kinesis-container>
       <v-row class="text-center ma-10">
         <v-col md="3">
           <kinesis-element :strength="15" type="depth">
@@ -90,15 +92,18 @@
           <a href="https://www.flaticon.com/">Flaticon</a>
         </p>
       </v-col>
-    </v-footer>
+    </v-footer>-->
   </v-container>
-</template>
+</template> 
 
 <script lang="ts">
 import Vue from "vue";
-
+// import NavBar from "../components/NavBar.vue";
 export default Vue.extend({
   name: "Home",
+  components: {
+    // NavBar
+  },
 
   data: () => ({
     codingSVG: require("../assets/coding.svg"),
@@ -118,5 +123,8 @@ export default Vue.extend({
 .myImg {
   border-radius: 50px;
   border: 5px solid #dbdbdb;
+}
+.home {
+  /* margin-top: 150px; */
 }
 </style>
