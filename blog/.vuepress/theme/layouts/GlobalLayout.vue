@@ -2,23 +2,28 @@
 
 <template>
   <section id="global-layout">
-    <v-container>
+    <div class="container ma-auto pa-5 h-auto">
       <nav-bar />
-      <section class="welcome">Welcome to Personal place!</section>
       <component :is="layout" />
-      <footer>
+      <!-- <footer>
         <h1>Footer</h1>
-      </footer>
-    </v-container>
+      </footer>-->
+      <!-- <div class="bg-gray-700 p-4 w-screen bottom-0 sticky">
+        <span class="text-white">this is footer</span>
+      </div>
+      <footer />-->
+    </div>
   </section>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
 import NavBar from "../components/NavBar.vue";
+import Footer from "../components/Footer.vue";
 export default Vue.extend({
   components: {
-    NavBar
+    NavBar,
+    Footer
   },
   computed: {
     layout() {

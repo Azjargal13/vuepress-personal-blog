@@ -9,8 +9,7 @@ tags:
 categories:
   - futurama
 --- 
-<!-- more -->
-
+this is me, just trying to update stuff
 # h1
 ## h2
 ### h3

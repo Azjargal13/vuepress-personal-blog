@@ -33,15 +33,15 @@ console.log(app)
 
 ---
 
-![An image](/cover.jpg)
+<!-- ![An image](/cover.jpg) -->
 
-<img-lazy src="/cover.jpg" />
+<!-- <img-lazy src="/cover.jpg" /> -->
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+| Tables        |      Are      |  Cool |
+| ------------- | :-----------: | ----: |
 | col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| col 2 is      |   centered    |   $12 |
+| zebra stripes |   are neat    |    $1 |
 
 
 ::: tip

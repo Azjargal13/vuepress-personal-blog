@@ -1,11 +1,10 @@
 <template>
-  <v-container>
-    Its me Layout
-    <section class="layout">
-      little me!!
-      <list ></list>
+  <div class="container ma-auto">
+    <section class="layout ml-20 mt-12 pa-10">
+      <div v-if="$route.path === '/'"></div>
+      <list v-else></list>
     </section>
-  </v-container>
+  </div>
 </template>
 
 

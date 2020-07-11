@@ -1,24 +1,23 @@
 <template>
-  <section class="flex-w main list">
-    <div>
-      this is from List
+  <section class="container">
+    <div class="font-medium text-gray-700 tracking-tight">
+      <span class="text-2xl">Welcome to</span>
+      <router-link
+        v-for="(item, index) in $list.posts"
+        :key="index"
+        :to="item.path"
+        :class="items "
+        class="text-lg"
+      >
+        <div v-if="item.frontmatter.image" class="flex-xcc item-img">
+          <img-lazy :src="item.frontmatter.image" :alt="item.title" class="img" />
+        </div>
+        <article class="titles mt-4 mb-4 hover:text-indigo-600">
+          <h2 class="content-title">{{ item.title }}</h2>
+          <div v-html="item.excerpt" class="content" />
+        </article>
+      </router-link>
     </div>
-    <router-link
-      v-for="(item, index) in $list.posts"
-      :key="index"
-      :to="item.path"
-      :class="items"
-      class="flex-y list-item"
-    >
-      <div v-if="item.frontmatter.image" class="flex-xcc item-img">
-        <img-lazy :src="item.frontmatter.image" :alt="item.title" class="img" />
-      </div>
-      <article class="flex-yb item-content">
-        <h2 class="content-title">{{ item.title }}</h2>
-        <div v-html="item.excerpt" class="content" />
-       
-      </article>
-    </router-link>
   </section>
 </template>
 
@@ -29,8 +28,8 @@ export default Vue.extend({});
 </script>
 
 <style  scoped>
-.items{
-color: black;
-font-size: 30px;
+.items {
+  color: black;
+  font-size: 30px;
 }
 </style>
