@@ -1,7 +1,9 @@
 <template>
-  <div class="container ma-auto">
+  <div class="container my-auto mx-auto">
     <section class="layout ml-20 mt-12 pa-10">
-      <div v-if="$route.path === '/'"></div>
+      <div v-if="$route.path === '/'">
+        <Home />
+      </div>
       <list v-else></list>
     </section>
   </div>
@@ -10,11 +12,11 @@
 
 <script lang="ts">
 import Vue from "vue";
-// // import Home from "./Home.vue";
+import Home from "./Home.vue";
 import List from "../components/List.vue";
 export default Vue.extend({
   components: {
-    // Home
+    Home,
     List
   }
 });

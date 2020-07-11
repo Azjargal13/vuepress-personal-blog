@@ -1,32 +1,52 @@
 <template>
-  <v-container>
-    <!-- <nav-bar /> -->
-    <h1 class="home">Its Home!</h1>
-    <!-- <kinesis-container>
-      <v-row class="text-center ma-10">
-        <v-col md="3">
-          <kinesis-element :strength="15" type="depth">
-            <img :src="codingSVG" alt height="60" class="pa-2" />
-            <h2>Javascript/Typescript</h2>
-          </kinesis-element>
-        </v-col>
-        <v-col md="6" class="ml-auto">
-          <kinesis-element :strength="15">
-            <img :src="writeSVG" alt height="60" class="pa-2" />
-            <h2>Hobbyist blog writer</h2>
-          </kinesis-element>
-        </v-col>
-      </v-row>
+  <div class="container home">
+    <kinesis-container>
+      <div class="grid grid-cols-3 gap-4 p-2">
+        <kinesis-element :strength="15" type="depth" class="p-10">
+          <img :src="codingSVG" alt class="p-2 h-24" />
+          <span>Javascript/Typescript</span>
+        </kinesis-element>
+        <kinesis-element :strength="15">
+          <img :src="writeSVG" alt class="pa-2 h-24" />
+          <span>Hobbyist blog writer</span>
+        </kinesis-element>
+        <kinesis-element :strength="10" type="rotate" class="p-12">
+          <img :src="ideaSVG" alt class="pa-2 h-24" />
+          <span>Idealist/Dreamer</span>
+        </kinesis-element>
+        <kinesis-element :strength="15" class="p-16">
+          <img :src="studentSVG" alt class="pa-2 h-24" />
+          <span>Front-End Engineer</span>
+          <span>Vue.js love</span>
+        </kinesis-element>
+        <kinesis-element :strength="15" type="rotate" class="p-4">
+          <img :src="travelSVG" alt class="pa-2 h-24" />
+          <span>Travel love</span>
+        </kinesis-element>
+        <kinesis-element :strength="15" type="depth" class="p-20 justify-end">
+          <img :src="bookSVG" alt class="pa-2 h-24" />
+          <span>bibliophile</span>
+        </kinesis-element>
+      </div>
+      <div class="flex justify-center p-10">
+        <img :src="myImg" class="rounded-full w-48 border-gray-700 border-4 h-48 text-center" />
+      </div>
+      <h4 class="text-medium font-thin text-center">Azjargal Gankhuyag</h4>
+      <h2 class="text-center p-10">
+        <kinesis-element :strength="1" type="scale" class="font-normal">
+          Life motto:
+          <span v-for="m in motto" :key="m.id">{{m}}</span>
+        </kinesis-element>
+      </h2>
+
+      <!-- 
       <v-row>
         <v-col md="2" class="ml-md-auto">
-          <kinesis-element :strength="15">
-            <img :src="bookSVG" alt height="60" class="pa-2" />
-            <h2>bibliophile</h2>
-          </kinesis-element>
+         
         </v-col>
         <v-col md="3" class="ml-md-auto">
           <kinesis-element :strength="15" type="rotate">
-            <img :src="ideaSVG" alt height="60" class="pa-2" />
+            <img :src="ideaSVG" alt class="pa-2 h-24" />
             <h2>Idealist/Dreamer</h2>
           </kinesis-element>
         </v-col>
@@ -34,14 +54,14 @@
       <v-row>
         <v-col cols="auto" class="mr-auto">
           <kinesis-element :strength="15" type="rotate">
-            <img :src="studentSVG" alt height="60" class="pa-2" />
+            <img :src="studentSVG" alt class="pa-2 h-24" />
             <h2>Front-End Engineer</h2>
             <h2>Vue.js love</h2>
           </kinesis-element>
         </v-col>
         <v-col cols="auto">
           <kinesis-element :strength="15">
-            <img :src="travelSVG" alt height="60" class="pa-2" />
+            <img :src="travelSVG" alt class="pa-2 h-24" />
             <h2>Travel love</h2>
           </kinesis-element>
         </v-col>
@@ -76,9 +96,9 @@
           Life motto:
           <span v-for="m in motto" :key="m.id">{{m}}</span>
         </kinesis-element>
-      </h2>
+      </h2>-->
     </kinesis-container>
-    <v-footer padless>
+    <!-- <v-footer padless>
       <v-col class="text-center" cols="12">
         <p class="overline">
           made with
@@ -93,17 +113,15 @@
         </p>
       </v-col>
     </v-footer>-->
-  </v-container>
+  </div>
 </template> 
 
 <script lang="ts">
 import Vue from "vue";
-// import NavBar from "../components/NavBar.vue";
+
 export default Vue.extend({
   name: "Home",
-  components: {
-    // NavBar
-  },
+  components: {},
 
   data: () => ({
     codingSVG: require("../assets/coding.svg"),
@@ -120,11 +138,4 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-.myImg {
-  border-radius: 50px;
-  border: 5px solid #dbdbdb;
-}
-.home {
-  /* margin-top: 150px; */
-}
 </style>

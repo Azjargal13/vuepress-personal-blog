@@ -6,7 +6,7 @@ module.exports = {
         // Please keep looking down to see the available options.
         navbar: [
             { name: 'Tech blog', link: '/blog1/' },
-            { name: 'personal blog', link: '/blog2/' },
+            { name: 'Personal blog', link: '/blog2/' },
             { name: 'Projects', link: '/project/' },
             { name: 'About', link: '/about/' }
         ]
