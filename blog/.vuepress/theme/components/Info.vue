@@ -5,8 +5,13 @@
         <span class="header-title">{{ $page.title }}</span>
         <p class="text-xl">#Tags | # Categories</p>
 
-        <div class>
-          <img src="https://img.icons8.com/officexs/16/000000/time.png" class="p-2" />
+        <div class="p-4 text-right grid grid-cols-1">
+          <p class="text-sm">
+            <!-- <span>
+              <img src="https://img.icons8.com/officexs/16/000000/time.png" />
+            </span>-->
+            {{$frontmatter.date}}
+          </p>
         </div>
       </div>
 
