@@ -5,9 +5,17 @@
     <div class="container ma-auto pa-5 h-auto">
       <nav-bar />
       <component :is="layout" />
-      <!-- <footer>
-        <h1>Footer</h1>
-      </footer>-->
+      <footer />
+      <footer class="p-8">
+        <div class="text-center">
+          <a href="https://github.com/Azjargal13" class="hover:text-indigo-600">Azjargal |</a>
+          <a href="https://vuepress.vuejs.org/" class="hover:text-indigo-600">VuePress |</a>
+          <a
+            href="https://icons8.com/icon/64520/ball-point-pen"
+            class="hover:text-indigo-600"
+          >Icons8</a>
+        </div>
+      </footer>
       <!-- <div class="bg-gray-700 p-4 w-screen bottom-0 sticky">
         <span class="text-white">this is footer</span>
       </div>
@@ -41,7 +49,4 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-.welcome {
-  margin-top: 100px;
-}
 </style>

@@ -1,8 +1,10 @@
 <template>
-  <div class="footer">i am footer</div>
+  <footer>here is another footer</footer>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Footer"
+};
 </script>
 
