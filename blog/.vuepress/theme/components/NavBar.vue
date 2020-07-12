@@ -2,7 +2,10 @@
   <div v-if="navbar" class="navbar">
     <nav class="flex items-center justify-between flex-wrap bg-gray-700 p-6">
       <div class="flex items-center flex-shrink-0 text-white">
-        <a class="font-semibold text-xl tracking-tight ml-4" href="/">Azaa's blog</a>
+        <a
+          class="font-semibold text-xl tracking-tight ml-4 hover:text-gray-400"
+          href="/"
+        >Azaa's blog</a>
       </div>
       <div class="block lg:hidden">
         <button

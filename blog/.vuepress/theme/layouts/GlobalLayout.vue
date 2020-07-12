@@ -8,7 +8,7 @@
       <footer />
       <footer class="p-8">
         <div class="text-center">
-          <a href="https://github.com/Azjargal13" class="hover:text-indigo-600">Azjargal |</a>
+          <a href="https://github.com/Azjargal13" class="hover:text-indigo-600">&copy;Azjargal |</a>
           <a href="https://vuepress.vuejs.org/" class="hover:text-indigo-600">VuePress |</a>
           <a
             href="https://icons8.com/icon/64520/ball-point-pen"
@@ -16,10 +16,6 @@
           >Icons8</a>
         </div>
       </footer>
-      <!-- <div class="bg-gray-700 p-4 w-screen bottom-0 sticky">
-        <span class="text-white">this is footer</span>
-      </div>
-      <footer />-->
     </div>
   </section>
 </template>
@@ -27,11 +23,10 @@
 <script lang="ts">
 import Vue from "vue";
 import NavBar from "../components/NavBar.vue";
-import Footer from "../components/Footer.vue";
+
 export default Vue.extend({
   components: {
-    NavBar,
-    Footer
+    NavBar
   },
   computed: {
     layout() {

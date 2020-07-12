@@ -3,6 +3,11 @@
     <article class="main info-content max-w-4xl mx-auto rounded p-12 shadow-2xl">
       <div class="content-header text-5xl font-light mt-8 mb-8 text-center">
         <span class="header-title">{{ $page.title }}</span>
+        <p class="text-xl">#Tags | # Categories</p>
+
+        <div class>
+          <img src="https://img.icons8.com/officexs/16/000000/time.png" class="p-2" />
+        </div>
       </div>
 
       <Content class="content leading-relaxed text-justify tracking-wide" />

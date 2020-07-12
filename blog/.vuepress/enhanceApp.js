@@ -3,6 +3,8 @@
 // // import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 import VueKinesis from "vue-kinesis"
+import ImgLazy from 'vuepress-plugin-img-lazy/ImgLazy'
+
 export default ({
     Vue,
     options,
@@ -10,4 +12,5 @@ export default ({
     siteData,
 }) => {
     Vue.use(VueKinesis)
+    Vue.component(ImgLazy.name, ImgLazy)
 }

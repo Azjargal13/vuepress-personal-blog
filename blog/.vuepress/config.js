@@ -17,6 +17,9 @@ module.exports = {
                 posts: 'posts/:year/:month/:day/:slug'
             }
         }],
+        [
+            'img-lazy'
+        ]
     ],
     postcss: {
         plugins: [

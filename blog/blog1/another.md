@@ -35,7 +35,7 @@ console.log(app)
 
 <!-- ![An image](/cover.jpg) -->
 
-<!-- <img-lazy src="/cover.jpg" /> -->
+<img-lazy src="https://picsum.photos/1920/1080/?random&date=2017-01-22" />
 
 | Tables        |      Are      |  Cool |
 | ------------- | :-----------: | ----: |
