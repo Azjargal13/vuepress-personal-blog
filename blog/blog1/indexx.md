@@ -55,3 +55,36 @@ This is a warning
 ::: danger
 This is a dangerous warning
 :::
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+
+### My Great Heading {#custom-id}
+
+
+	term
+: definition
+
+~~The world is flat.~~
+
+
+- First item
+- Second item
+- Third item
+
+
+> blockquote 
+
+
+*italicized text*
+
+
+
+**bold text**
+
+
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.

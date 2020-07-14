@@ -21,6 +21,24 @@ The post intro uses the `<!-- more -->` tag
 ##### h5
 ###### h6
 
+``` js
+export default {
+  name: 'MyComponent',
+  // ...
+}
+```
+
+``` html
+<ul>
+  <li
+    v-for="todo in todos"
+    :key="todo.id"
+  >
+    {{ todo.text }}
+  </li>
+</ul>
+```
+
 ``` sh
 
 npm i vuepress-theme-ououe
