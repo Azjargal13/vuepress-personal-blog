@@ -74,6 +74,8 @@ This is a warning
 This is a dangerous warning
 :::
 
+> here is my new blockquote which good quotes that I like to attach in the blog... It is beautiful rainy day today!!
+
 Lorem Ipsum
 "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
 "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
