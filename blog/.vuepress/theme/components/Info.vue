@@ -11,7 +11,7 @@
           <span v-for="tag in $page.frontmatter.tags" :key="tag" class="text-xl mr-3">#{{tag}}</span>
         </p>
 
-        <div class="p-4 text-right grid grid-cols-1">
+        <div class="p-4 text-right grid grid-cols-1" v-if="$frontmatter.date">
           <p class="text-sm">
             <!-- <span>
               <img src="https://img.icons8.com/officexs/16/000000/time.png" />
