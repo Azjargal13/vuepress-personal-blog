@@ -7,4 +7,6 @@ tags:
 categories:
   - social
 --- 
-about coronavirus
+
+The Corona virus give us opportunity to face real life problems that we have. It helps us to embrace our true nature and help us to realize what is real and what is not.
+

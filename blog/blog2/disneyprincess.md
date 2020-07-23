@@ -9,4 +9,4 @@ categories:
   - self-improvement
 --- 
 
-How each disney princess is different from each other?
+How each disney princess is different from each other

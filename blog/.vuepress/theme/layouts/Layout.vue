@@ -1,6 +1,6 @@
 <template>
   <div class="container my-auto mx-auto">
-    <section class="layout ml-20 mt-12 pa-10">
+    <section class="layout lg:ml-20 mt-12 lg:pa-10 ml-0 p-5">
       <div v-if="$route.path === '/'">
         <Home />
       </div>

@@ -2,7 +2,7 @@
 
 <template>
   <section id="global-layout">
-    <div class="container ma-auto pa-5 h-auto">
+    <div class="container ma-auto pa-5 h-auto max-w-full min-w-full">
       <nav-bar />
       <component :is="layout" />
       <footer />

@@ -1,6 +1,8 @@
 <template>
-  <section class="page container ml-10 mt-12">
-    <info />
+  <section class="page container mt-12 max-w-full">
+    <div class="flex justify-center">
+      <info />
+    </div>
   </section>
 </template>
 
