@@ -5,7 +5,7 @@
       <div class="articles">
         <div class="px-6 py-4 categories">
           <span
-            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-m font-semibold text-gray-700 mr-4 hover:text-indigo-600"
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-m font-semibold text-gray-700 mr-4 hover:text-indigo-600 m-2"
             v-for="(val, k) in $categories._metaMap"
             :key="k"
           >@{{k}}</span>
@@ -22,7 +22,7 @@
               <h2 class="content-title hover:text-indigo-600">{{ item.title }}</h2>
               <div v-html="item.excerpt" class="content pt-2" />
               <p
-                class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-4 mr-4"
+                class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-4 mr-4 m-2"
                 v-for="tags in item.frontmatter.tags"
                 :key="tags"
               >#{{tags}}</p>
