@@ -29,7 +29,7 @@
 
               <p
                 class="pt-4 text-gray-500 text-sm"
-                v-if="$frontmatter.date"
+                v-if="item.frontmatter.date"
               >{{item.frontmatter.date | sliceText}}</p>
             </article>
             <div v-if="item.frontmatter.image" class="item-img hidden md:inline">
@@ -52,14 +52,14 @@ export default Vue.extend({
     testingTxt: "";
     return {
       navName: getNavName(this.$route.path),
-      testingTxt: "lowercase"
+      testingTxt: "lowercase",
     };
   },
   filters: {
-    sliceText: function(val) {
-      return val.slice(0, 10);
-    }
-  }
+    sliceText: function (val) {
+      return val.slice(0, 12);
+    },
+  },
 });
 </script>
 

@@ -51,7 +51,7 @@ export default {
   name: "Info",
   filters: {
     sliceText: function(val) {
-      return val.slice(0, 10);
+      return val.slice(0, 12);
     }
   }
 };
