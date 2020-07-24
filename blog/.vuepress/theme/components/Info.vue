@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="info-img flex justify-center" v-if="$page.frontmatter.image">
-        <img-lazy
+        <img
           :src="$page.frontmatter.image"
           :alt="$frontmatter.title"
           class="rounded info-img sm:m-0"

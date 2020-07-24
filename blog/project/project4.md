@@ -22,7 +22,6 @@ User can select type of news, agent, geo location etc to get updated to latest t
 - VueJs
 - Vuetify 
 - News API
-- 
-
+  
 ### Github link
 <https://github.com/Azjargal13/handy-news>

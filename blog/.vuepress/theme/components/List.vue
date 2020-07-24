@@ -33,7 +33,7 @@
               >{{item.frontmatter.date | sliceText}}</p>
             </article>
             <div v-if="item.frontmatter.image" class="item-img hidden md:inline">
-              <img-lazy :src="item.frontmatter.image" :alt="item.title" class="h-40 rounded" />
+              <img :src="item.frontmatter.image" :alt="item.title" class="h-40 rounded" />
             </div>
           </div>
         </router-link>
