@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "docs:dev": "vuepress dev blog/ ",
-    "docs:build": "vuepress build "
+    "docs:build": "vuepress build blog/ "
   },
   "dependencies": {
     "core-js": "^3.6.4",
@@ -19,8 +19,7 @@
     "vue-property-decorator": "^8.4.1",
     "vue-router": "^3.1.6",
     "vuepress-plugin-blog-multidir": "^1.0.5",
-    "vuepress-plugin-img-lazy": "^1.0.4",
-    "vuetify": "^2.3.4"
+    "vuepress-plugin-img-lazy": "^1.0.4"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",

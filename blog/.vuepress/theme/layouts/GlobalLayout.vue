@@ -8,10 +8,19 @@
       <footer />
       <footer class="p-8">
         <div class="text-center">
-          <a href="https://github.com/Azjargal13" class="hover:text-indigo-600">&copy;Azjargal |</a>
-          <a href="https://vuepress.vuejs.org/" class="hover:text-indigo-600">VuePress |</a>
+          <a
+            href="https://github.com/Azjargal13"
+            class="hover:text-indigo-600"
+            target="_blank"
+          >&copy;Azjargal |</a>
+          <a
+            href="https://vuepress.vuejs.org/"
+            class="hover:text-indigo-600"
+            target="_blank"
+          >VuePress |</a>
           <a
             href="https://icons8.com/icon/64520/ball-point-pen"
+            target="_blank"
             class="hover:text-indigo-600"
           >Icons8</a>
         </div>
@@ -27,7 +36,7 @@ import Page from "../layouts/Page.vue";
 export default Vue.extend({
   components: {
     NavBar,
-    Page
+    Page,
   },
   computed: {
     layout() {
@@ -39,8 +48,8 @@ export default Vue.extend({
         return "Layout";
       }
       return "NotFound";
-    }
-  }
+    },
+  },
 });
 </script>
 
