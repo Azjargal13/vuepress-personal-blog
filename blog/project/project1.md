@@ -1,15 +1,29 @@
 ---
 title: ByteAcads.com landing page
-image: https://picsum.photos/1920/1080/?random&date=2017-01-22
-date: 2019-01-22
+image: 
+date: 2020-June-20
 tags: 
   - dev
-  - landing-page
+  - landing page
 categories:
   - front-end
 --- 
 
-Recently, I have developed a landing page for ByteAcads.com, EdTech startup.
+## [ByteAcads](https://www.byteacads.com/)
 
-Used framework:
-- VueJs
+Landing page development for EdTech startup, ByteAcads.com. 
+
+I have huge interest on education technology which helps massive amounts of students who like to gain knowledge from available resources as such online lessons. The idea always inspires me as I like to study online too, which later directed me to do something related with EdTech, so first I've started developing initial phase for ByteAcads.com.
+
+### Framework & Tools
+
+VueJs is personal favorite framework, so it is also used in this project. 
+For design, TailwindCss is used, cute icons and characters are from unDraw.
+
+### Useful links
+
+- [TailWindCSS](https://tailwindcss.com/)
+- [unDraw](https://undraw.co/)
+
+### Github link
+<https://github.com/Azjargal13/byteAcads-page>

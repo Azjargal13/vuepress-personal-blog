@@ -1,15 +1,34 @@
 ---
-title: Personal blog with Hexo
-image: https://picsum.photos/1920/1080/?random&date=2017-01-22
-date: 2019-01-22
+title: Personal blog with Hexo & Chic template
+image: 
+date: 2020-Apr-05
 tags: 
   - dev
-  - landing-page
+  - personal blog
 categories:
   - front-end
 --- 
 
-Recently, I have developed a landing page for ByteAcads.com, EdTech startup.
+## Inspiration
 
-Used framework:
-- VueJs
+There had a time where I just wanted to try something interesting & new, related to static site generators, so I've picked up Hexo as it is powerful and popular among the developers.
+
+This give me good foundation knowledge of how static site generators are work and how the project need to be structured.
+
+I was able to link to template of the theme in the project, that was pretty good learning for better usage of Github.
+
+Although in this project I've used already prepared template, which later give me big inspiration to build own personalized theme.
+
+In this blog, I've written numerous articles more on competitive coding and techy topics.
+
+## Frameworks & Tools
+
+- Hexo, the simple & powerful blog framework
+- Chic, theme template for the blog
+- Github Pages (for initial deployment)
+- Netlify (later/constant deployment)
+
+It is live on <https://azjargal.netlify.com/>
+
+### Github link
+<https://github.com/Azjargal13/my-hexo-blog>
