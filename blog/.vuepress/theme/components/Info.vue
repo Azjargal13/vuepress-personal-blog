@@ -28,6 +28,7 @@
         />
       </div>
       <Content class="content leading-relaxed text-justify tracking-wide" />
+
       <!-- <div v-if="postTime" class="content-time">
       <time
         v-if="postTime.createTime && createTime"
@@ -50,10 +51,10 @@
 export default {
   name: "Info",
   filters: {
-    sliceText: function(val) {
+    sliceText: function (val) {
       return val.slice(0, 12);
-    }
-  }
+    },
+  },
 };
 </script>
 

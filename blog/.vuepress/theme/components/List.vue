@@ -38,6 +38,7 @@
           </div>
         </router-link>
       </div>
+      <div class="pagination">its pagination</div>
     </div>
   </section>
 </template>
