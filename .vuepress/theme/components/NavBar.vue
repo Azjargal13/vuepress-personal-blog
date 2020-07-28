@@ -24,6 +24,7 @@
 
 <script>
 export default {
+  name: "NavBar",
   computed: {
     navbar() {
       return this.$themeConfig.navbar || null;

@@ -38,15 +38,17 @@
           </div>
         </router-link>
       </div>
-      <div class="pagination">its pagination</div>
+      <!-- <div class="pagination">its pagination</div> -->
     </div>
   </section>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from "vue";
 import { getNavName, convertTimestamp } from "../lib/getNavName.ts";
+
 export default Vue.extend({
+  name: "List",
   data() {
     navName: "";
     timestamp: "";

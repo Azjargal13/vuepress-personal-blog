@@ -29,11 +29,11 @@
   </section>
 </template>
 
-<script lang="ts">
-import Vue from "vue";
-import NavBar from "../components/NavBar.vue";
-import Page from "../layouts/Page.vue";
-export default Vue.extend({
+<script>
+import NavBar from "@theme/components/NavBar";
+import Page from "@theme/layouts/Page";
+export default {
+  name: "GlobalLayout",
   components: {
     NavBar,
     Page,
@@ -50,7 +50,7 @@ export default Vue.extend({
       return "NotFound";
     },
   },
-});
+};
 </script>
 
 <style scoped>

@@ -59,10 +59,8 @@
   </div>
 </template> 
 
-<script lang="ts">
-import Vue from "vue";
-
-export default Vue.extend({
+<script>
+export default {
   name: "Home",
   components: {},
 
@@ -75,9 +73,9 @@ export default Vue.extend({
     writeSVG: require("../assets/write.svg"),
     myImg: require("../assets/me.jpg"),
     justify: ["start", "end", "center", "baseline", "auto", "stretch"],
-    motto: "vivere memento"
-  })
-});
+    motto: "vivere memento",
+  }),
+};
 </script>
 
 <style scoped>
