@@ -1,6 +1,6 @@
 <template>
   <div class="container home">
-    <kinesis-container>
+    <kinesis-container :is="home">
       <!-- <div class="grid grid-cols-3 gap-4 p-2">
         <kinesis-element :strength="15" type="depth" class="p-10">
           <img :src="codingSVG" alt class="p-2 h-24" />
