@@ -23,4 +23,8 @@ export default {
 };
 </script>
 
+
+<style lang="stylus">
+@import ('../styles/base.styl');
+@import ('../styles/index.styl');
 </style>

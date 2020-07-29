@@ -54,6 +54,6 @@ export default {
 </script>
 
 <style lang="stylus">
-@require ('../styles/base.styl');
-@require ('../styles/index.styl');
+@import ('../styles/base.styl');
+@import ('../styles/index.styl');
 </style>

@@ -53,7 +53,7 @@
       <!-- <kinesis-element :strength="1" type="scale" class="font-normal sm:text-medium">
         Life motto:
         <span v-for="m in motto" :key="m.id">{{m}}</span>
-      </kinesis-element> -->
+      </kinesis-element>-->
     </h2>
     <!-- </kinesis-container> -->
   </div>
@@ -78,5 +78,8 @@ export default {
 };
 </script>
 
-<style scoped>
+
+<style lang="stylus">
+@import ('../styles/base.styl');
+@import ('../styles/index.styl');
 </style>
