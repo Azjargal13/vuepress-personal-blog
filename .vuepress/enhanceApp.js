@@ -5,6 +5,7 @@
 import VueKinesis from "vue-kinesis"
 import ImgLazy from 'vuepress-plugin-img-lazy/ImgLazy'
 import "../.vuepress/theme/styles/base.styl"
+import "../.vuepress/theme/styles/index.styl"
 
 import Prism from "prismjs";
 import "prismjs/themes/prism.css";
