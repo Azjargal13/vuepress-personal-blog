@@ -53,5 +53,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="stylus">
+@require ('../styles/base.styl');
+@require ('../styles/index.styl');
 </style>
