@@ -7,6 +7,5 @@ export default ({
     router,
     siteData,
 }) => {
-    Vue.use(VueKinesis, Prism)
-    Vue.component(ImgLazy.name, ImgLazy)
+
 }
