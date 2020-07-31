@@ -20,12 +20,15 @@ module.exports = {
         }],
         [
             'img-lazy'
-        ]
-    ],
-    postcss: {
-        plugins: [
-            require("tailwindcss")("./tailwind.config.js"),
-            require("autoprefixer"),
         ],
-    }
+        [
+            "@silvanite/tailwind", { purgecss: { enabled: false } }
+        ],
+    ]
+    // postcss: {
+    //     plugins: [
+    //         require("tailwindcss")("./tailwind.config.js"),
+    //         require("autoprefixer"),
+    //     ],
+    // }
 }
