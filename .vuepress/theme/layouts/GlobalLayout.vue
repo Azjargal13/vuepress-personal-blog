@@ -32,6 +32,10 @@
 <script>
 import NavBar from "@theme/components/NavBar";
 import Page from "@theme/layouts/Page";
+import '../styles/index.styl'
+import '../styles/base.styl'
+
+
 export default {
   name: "GlobalLayout",
   components: {
@@ -53,7 +57,3 @@ export default {
 };
 </script>
 
-<style lang="stylus">
-@import ('../styles/base.styl');
-@import ('../styles/index.styl');
-</style>

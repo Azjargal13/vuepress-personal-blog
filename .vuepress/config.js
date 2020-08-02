@@ -24,11 +24,11 @@ module.exports = {
         [
             "@silvanite/tailwind", { purgecss: { enabled: false } }
         ],
-    ]
-    // postcss: {
-    //     plugins: [
-    //         require("tailwindcss")("./tailwind.config.js"),
-    //         require("autoprefixer"),
-    //     ],
-    // }
+    ],
+    postcss: {
+        plugins: [
+            require("tailwindcss")("./tailwind.config.js"),
+            require("autoprefixer"),
+        ],
+    }
 }
