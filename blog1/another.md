@@ -8,6 +8,7 @@ tags:
   - test
 categories:
   - futurama
+readingTime: { text: "Not so long!", minutes: 3 }
 --- 
 
 The post intro uses the `<!-- more -->` tag

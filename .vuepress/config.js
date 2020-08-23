@@ -24,6 +24,9 @@ module.exports = {
         [
             "@silvanite/tailwind", { purgecss: { enabled: false } }
         ],
+        ['@vuepress/back-to-top'],
+        ['vuepress-plugin-reading-time', { excludes: ['/about'] }],
+        ['@vuepress/last-updated']
     ],
     postcss: {
         plugins: [
