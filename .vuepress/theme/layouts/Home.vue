@@ -29,7 +29,10 @@
         </kinesis-element>
     </div>-->
     <div class="flex justify-center p-6">
-      <img :src="myImg" class="rounded-full w-48 border-gray-700 border-4 h-48 text-center p-0" />
+      <img
+        :src="myImg"
+        class="rounded-full md:w-48 border-gray-700 border-4 md:h-48 text-center p-0 w-28 h-32"
+      />
     </div>
     <div class="flex justify-center">
       <a href="https://www.linkedin.com/in/azjargal-gankhuyag/" target="_blank">
@@ -50,12 +53,13 @@
     </div>
     <h4 class="text-medium font-thin text-center mt-4">Azjargal Gankhuyag</h4>
     <h2 class="text-center p-10">
-      <!-- <kinesis-element :strength="1" type="scale" class="font-normal sm:text-medium">
-        Life motto:
-        <span v-for="m in motto" :key="m.id">{{m}}</span>
-      </kinesis-element>-->
+      <kinesis-container>
+        <kinesis-element :strength="1" type="scale" class="font-normal sm:text-medium">
+          Life motto:
+          <span>{{motto}}</span>
+        </kinesis-element>
+      </kinesis-container>
     </h2>
-    <!-- </kinesis-container> -->
   </div>
 </template> 
 
