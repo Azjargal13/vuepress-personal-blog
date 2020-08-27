@@ -64,9 +64,13 @@
 </template> 
 
 <script>
+import { KinesisContainer, KinesisElement } from "vue-kinesis";
 export default {
   name: "Home",
-  components: {},
+  components: {
+    KinesisContainer,
+    KinesisElement,
+  },
 
   data: () => ({
     codingSVG: require("../assets/coding.svg"),
