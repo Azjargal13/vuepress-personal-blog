@@ -18,13 +18,13 @@
       </div>
     </div>
     <div class="flex justify-center">
-      <div v-if="!$list.lastPost" class="m-10 shadow-2xl w-1/2">
+      <div v-if="!$list.lastPost && $list.nextPost" class="m-10 shadow-2xl w-1/2">
         <router-link :to="$list.nextPost.regularPath" class="hover:text-indigo-700">
           <h4>go to Next article =></h4>
           <p>{{$list.nextPost.title}}</p>
         </router-link>
       </div>
-      <div v-if="!$list.nextPost" class="m-10 shadow-2xl w-1/2">
+      <div v-if="!$list.nextPost && $list.lastPost" class="m-10 shadow-2xl w-1/2">
         <router-link :to="$list.lastPost.regularPath" class="hover:text-indigo-700">
           <h4>go to Prev article <=</h4>
           <p>{{$list.lastPost.title}}</p>
