@@ -1,7 +1,7 @@
 ---
 title: Learning from Disney Princesses
 image: https://source.unsplash.com/7VHsb9sGBKs
-date: 2020-07-12
+date: 2020-July-12
 tags: 
   - reflection
   - opinion

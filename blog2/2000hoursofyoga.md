@@ -1,7 +1,7 @@
 ---
 title: Milestone achieved - 2000 hours of Yoga practice
 image: https://source.unsplash.com/tyCVZ1Aaqxo
-date: 2020-07-12
+date: 2020-July-12
 tags: 
   - reflection
   - yoga
