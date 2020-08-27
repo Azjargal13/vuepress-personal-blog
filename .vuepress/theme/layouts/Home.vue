@@ -53,12 +53,12 @@
     </div>
     <h4 class="text-medium font-thin text-center mt-4">Azjargal Gankhuyag</h4>
     <h2 class="text-center p-10">
-      <kinesis-container>
-        <kinesis-element :strength="1" type="scale" class="font-normal sm:text-medium">
-          Life motto:
-          <span>{{motto}}</span>
-        </kinesis-element>
-      </kinesis-container>
+      <!-- <kinesis-container>
+      <kinesis-element :strength="1" type="scale" class="font-normal sm:text-medium">-->
+      Life motto:
+      <span>{{motto}}</span>
+      <!-- </kinesis-element>
+      </kinesis-container>-->
     </h2>
   </div>
 </template> 
