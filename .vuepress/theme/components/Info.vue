@@ -1,14 +1,14 @@
 <template>
   <section class="info flex justify-center">
-    <article class="main info-content rounded p-4 md:p-12 shadow-2xl">
+    <article class="main info-content rounded p-4 md:p-12 shadow-2xl lg:w-3/4" >
       <div class="content-header text-3xl md:text-5xl font-light mt-8 mb-8 text-center">
         <span class="header-title">{{ $page.title }}</span>
 
-        <p v-for="category in $page.frontmatter.categories" :key="category" class="text-xl">
+        <p v-for="category in $page.frontmatter.categories" :key="category.id" class="text-xl">
           @{{category}}
           <span class="m-2">|</span>
 
-          <span v-for="tag in $page.frontmatter.tags" :key="tag" class="text-xl mr-3">#{{tag}}</span>
+          <span v-for="tag in $page.frontmatter.tag" :key="tag.id" class="text-xl mr-3">#{{tag}}</span>
         </p>
 
         <div class="p-4 text-right grid grid-cols-1" v-if="$frontmatter.date">
@@ -52,7 +52,8 @@ export default {
   name: "Info",
   filters: {
     sliceText: function (val) {
-      return val.slice(0, 12);
+      var newDate = new Date(val);
+      return newDate.toDateString();
     },
   },
 };
