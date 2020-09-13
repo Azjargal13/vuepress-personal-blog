@@ -2,7 +2,7 @@
 title:  "End-to-End testing framework NightWatchJs: installation and config step by step"
 date:   2020-01-08 11:41:00 +0900
 categories: 
-- [Testing]
+- Testing
 tag:
 - e2e-test 
 - testing 

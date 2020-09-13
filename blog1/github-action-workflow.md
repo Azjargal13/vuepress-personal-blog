@@ -2,7 +2,7 @@
 title:  "Simple github action workflow of npm execution (basic workflow)"
 date:   2020-01-06 14:50:00 +0900
 categories: 
-- [github]
+- github
 tag:
 - github 
 - npm 

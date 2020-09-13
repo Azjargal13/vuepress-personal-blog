@@ -2,7 +2,7 @@
 title:  "What's new for latest storybook version, what features have been added in later of `storybook@^5.2.0`"
 date:   2020-01-23 18:14:00 +0900
 categories: 
-- [storybook]
+- storybook
 tag:
 - storybook
 - latest-updates

@@ -2,7 +2,7 @@
 title:  "End-to-End testing with NightWatchJs"
 date:   2020-01-07 15:30:00 +0900
 categories:
-- [Testing]
+- Testing
 tag:
 - e2e-test
 - testing 

@@ -2,7 +2,7 @@
 title:  "[Competitive coding] LC weekly contest 183 (task 3) "
 date:   2020-04-05 13:21:00 +0900
 categories: 
-- [Competitive coding]
+- Competitive coding
 tag:
 - leetcode
 - contest

@@ -2,7 +2,7 @@
 title:  "Using environment variables (env) in VueJS project with `vue-cli-3`"
 date:   2020-01-10 14:52:00 +0900
 categories: 
-- [VueJS]
+- VueJS
 tag:
 - vue-cli3
 - env-var

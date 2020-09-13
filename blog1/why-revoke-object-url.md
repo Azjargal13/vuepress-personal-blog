@@ -2,7 +2,7 @@
 title:  "Why need to revoke object url after creating obj URL Blob or other objects? "
 date:   2020-03-02 16:37:00 +0900
 categories: 
-- [HTML DOM Window]
+- HTML DOM Window
 tag:
 - dom 
 - revokeURL

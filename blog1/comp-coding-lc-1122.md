@@ -2,7 +2,7 @@
 title:  "[Competitive coding] LC-1122: Relative sort array"
 date:   2020-04-04 22:21:00 +0900
 categories: 
-- [Competitive coding]
+- Competitive coding
 tag:
 - leetcode
 - sort

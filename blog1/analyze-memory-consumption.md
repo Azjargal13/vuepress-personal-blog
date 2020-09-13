@@ -2,7 +2,7 @@
 title:  "Analyzing memory consumption of the web application using Firefox developer tool"
 date:   2020-01-09 17:29:00 +0900
 categories: 
-- [Memory analyze]
+- Memory analyze
 tag : 
 - analyze  
 - memory  

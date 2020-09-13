@@ -2,7 +2,7 @@
 title:  "How to write better unit testing using jest and vue-test-utils?"
 date:   2020-02-4 17:21:00 +0900
 categories: 
-- [Testing]
+- Testing
 tag:
 - unit-test 
 - vue-test-utils

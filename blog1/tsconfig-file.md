@@ -2,7 +2,7 @@
 title:  "Vuejs+Typescript: What is a tsconfig.json file under /src?"
 date:   2020-02-28 21:21:00 +0900
 categories:
-- [typescript, VueJS]
+- typescript, VueJS
 tag:
 - typescript 
 - tsconfig 

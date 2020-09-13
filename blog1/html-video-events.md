@@ -2,7 +2,7 @@
 title:  "Why HTML video element's event listening really matters? "
 date:   2020-02-05 18:11:00 +0900
 categories: 
-- [HTML DOM Window]
+- HTML DOM Window
 tag: 
 - html 
 - dom 

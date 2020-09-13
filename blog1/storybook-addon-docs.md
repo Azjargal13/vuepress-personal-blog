@@ -2,7 +2,7 @@
 title:  "Let's add some documentation to stories using @storybook-addon-docs"
 date:   2020-01-17 17:00:00 +0900
 categories: 
-- [storybook]
+- storybook
 tag:
 - storybook
 - addon-docs

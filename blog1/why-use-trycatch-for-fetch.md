@@ -2,7 +2,7 @@
 title:  "Why we should catch errors thrown by fetch API? "
 date:   2020-02-10 16:37:00 +0900
 categories: 
-- [API]
+- API
 tag:
 - trycatch
 - exception

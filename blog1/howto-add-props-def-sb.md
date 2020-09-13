@@ -2,7 +2,7 @@
 title:  "How to add specific definition for the prop table using storybook addon-docs? "
 date:   2020-03-03 16:37:00 +0900
 categories: 
-- [storybook]
+- storybook
 tag:
 - storybook
 - addon-docs

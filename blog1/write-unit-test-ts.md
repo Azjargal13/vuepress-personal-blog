@@ -2,7 +2,7 @@
 title:  "Write a unit test using jest in Vue/Typescript project"
 date:   2020-01-27 18:06:00 +0900
 categories:
-- [Testing]
+- Testing
 tag:
 - jest
 - unit-test

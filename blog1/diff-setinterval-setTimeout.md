@@ -2,7 +2,7 @@
 title:  "Which one to use for timers? setInterval or setTimeout"
 date:   2020-02-27 21:21:00 +0900
 categories:
-- [HTML DOM Window]
+- HTML DOM Window
 tag:
 - timer
 - setInterval 
