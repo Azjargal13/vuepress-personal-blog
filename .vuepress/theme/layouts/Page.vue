@@ -1,6 +1,6 @@
 <template>
   <section class="page container mt-12 max-w-full">
-    <div class="flex justify-center">
+    <div class="lg:flex lg:justify-center">
       <info />
     </div>
     <div class="flex justify-between">

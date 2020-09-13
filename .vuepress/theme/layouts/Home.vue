@@ -1,5 +1,5 @@
 <template>
-  <div class="container home">
+  <div class="home">
     <!-- <kinesis-container :is="home"> -->
     <!-- <div class="grid grid-cols-3 gap-4 p-2">
         <kinesis-element :strength="15" type="depth" class="p-10">
@@ -88,6 +88,6 @@ export default {
 
 
 <style lang="stylus">
-@import ('../styles/base.styl');
-@import ('../styles/index.styl');
+.home {
+}
 </style>

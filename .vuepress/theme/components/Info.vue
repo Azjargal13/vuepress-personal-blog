@@ -1,6 +1,6 @@
 <template>
   <section class="info flex justify-center">
-    <article class="main info-content rounded p-4 md:p-12 shadow-2xl lg:w-3/4" >
+    <article class="main info-content rounded p-4 md:p-12 shadow-2xl lg:w-3/4">
       <div class="content-header text-3xl md:text-5xl font-light mt-8 mb-8 text-center">
         <span class="header-title">{{ $page.title }}</span>
 
@@ -8,7 +8,12 @@
           @{{category}}
           <span class="m-2">|</span>
 
-          <span v-for="tag in $page.frontmatter.tag" :key="tag.id" class="text-xl mr-3">#{{tag}}</span>
+          <span
+            v-for="tag in $page.frontmatter.tag"
+            :key="tag.id"
+            class="text-xl mr-3"
+            id="tag"
+          >#{{tag}}</span>
         </p>
 
         <div class="p-4 text-right grid grid-cols-1" v-if="$frontmatter.date">
@@ -68,5 +73,8 @@ export default {
 .info-content {
   min-width: 300px;
   max-width: 85%;
+}
+#tag {
+  word-break: break-all;
 }
 </style>

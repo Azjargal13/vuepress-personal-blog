@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="list-section max-w-full sm:min-w-full">
     <span
       class="text-2xl tracking-wide font-thin"
     >Welcome to {{ $route.fullPath | changeSubTitle }}!</span>
@@ -17,11 +17,11 @@
           v-for="(item, index) in $list.posts"
           :key="index"
           :to="item.path"
-          class="text-lg"
+          class="text-lg hover:text-indigo-600"
         >
           <div class="flex mt-4 mb-4 shadow-sm p-6 md:p-12 justify-between sm:p-4">
             <article class="titles w-full" v-show="!item.frontmatter.image">
-              <h2 class="content-title hover:text-indigo-600">{{ item.title }}</h2>
+              <h2 class="content-title">{{ item.title }}</h2>
               <div v-html="item.excerpt" class="content pt-2" />
               <p
                 class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mt-4 mr-4 m-2"

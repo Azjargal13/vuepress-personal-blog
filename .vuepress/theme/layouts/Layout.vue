@@ -1,7 +1,7 @@
 <template>
-  <div class="container my-auto mx-auto">
-    <section class="layout lg:ml-20 mt-12 lg:pa-10 ml-0 p-5">
-      <Content class="flex-1 container mx-auto leading-normal" />
+  <div class="my-auto mx-auto">
+    <section class="outer-layout max-w-full sm:min-w-full lg:ml-20 mt-12 lg:pa-10 ml-0 p-5">
+      <Content />
       <div v-if="$route.path === '/'">
         <Home />
       </div>
