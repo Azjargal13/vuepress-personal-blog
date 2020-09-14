@@ -7,9 +7,12 @@
     "build": "vuepress build"
   },
   "dependencies": {
+    "@vuepress/core": "^1.5.4",
     "autoprefixer": "^9.8.5",
+    "jw-vue-pagination": "^1.0.3",
     "moment": "^2.27.0",
     "tailwindcss": "^1.6.0",
+    "vue": "^2.6.12",
     "vue-kinesis": "^1.1.5",
     "vuepress-plugin-blog-multidir": "^1.0.5",
     "vuepress-plugin-img-lazy": "^1.0.4"
@@ -21,7 +24,10 @@
     "sass": "^1.19.0",
     "sass-loader": "^8.0.0",
     "typescript": "~3.8.3",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12",
     "vuepress": "^1.5.2",
-    "vuepress-plugin-reading-time": "^0.1.1"
+    "vuepress-plugin-reading-time": "^0.1.1",
+    "webpack-cli": "^3.3.12"
   }
 }

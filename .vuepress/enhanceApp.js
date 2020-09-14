@@ -11,6 +11,8 @@ import ImgLazy from 'vuepress-plugin-img-lazy/ImgLazy'
 import Prism from "prismjs";
 import "prismjs/themes/prism.css";
 
+import JwPagination from 'jw-vue-pagination'
+
 export default ({
     Vue,
     options,
@@ -18,5 +20,5 @@ export default ({
     siteData,
 }) => {
     Vue.use(VueKinesis, Prism)
-    Vue.component(ImgLazy.name, ImgLazy)
+    Vue.component(ImgLazy.name, ImgLazy, JwPagination)
 }
