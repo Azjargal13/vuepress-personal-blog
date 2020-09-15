@@ -2,8 +2,14 @@ h1,  h2,  h3,  h4,  h5,  h6,  p,  table, ul, ol, blockquote
     padding 15px;
 
 code
-    font-style mono;
-
+    background: #f7f7f7
+    font-family: Menlo, Monaco, Consolas, Courier New, monospace
+    font-size: 12px
+    line-height: 1.7em;
+    padding: 3px 5px;
+    border-radius: 4px;
+    color: #c7254e;
+    
 pre, img
     padding: 10px;
 
@@ -30,3 +36,15 @@ blockquote
     margin-left: 10px
     background-color:  #f7fafc
     border-left-width: 4px
+
+h3
+    ::before
+        content: "|"
+        margin-right: 5px
+        color: #c7ede6
+
+p
+    a
+        color: #4c51bf;
+    a:hover
+        color: #c7254e

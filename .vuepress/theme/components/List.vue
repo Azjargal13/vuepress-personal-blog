@@ -2,7 +2,7 @@
   <section class="list-section max-w-full sm:min-w-full">
     <span
       class="text-2xl tracking-wide font-thin"
-    >Welcome to {{ $route.fullPath | changeSubTitle }} <i class="far fa-sun"></i>!</span>
+    >Welcome to {{ $route.fullPath | changeSubTitle }} <i class="fab fa-angellist"></i>!</span>
     <div class="font-normal text-gray-700 tracking-tight max-w-4xl mx-auto">
       <div class="articles">
         <div class="px-6 py-4 categories">

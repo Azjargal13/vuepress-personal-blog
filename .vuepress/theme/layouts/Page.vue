@@ -6,13 +6,13 @@
     <div class="flex justify-between">
       <div v-if="$list.lastPost && $list.nextPost" class="m-10 shadow-2xl">
         <router-link :to="$list.lastPost.regularPath" class="hover:text-indigo-700">
-          <h4>go to Prev article <=</h4>
+          <h4>Prev article <i class="fas fa-arrow-left"></i> </h4>
           <p>{{$list.lastPost.title}}</p>
         </router-link>
       </div>
       <div v-if="$list.nextPost && $list.lastPost" class="m-10 shadow-2xl">
         <router-link :to="$list.nextPost.regularPath" class="hover:text-indigo-700">
-          <h4>go to Next article =></h4>
+          <h4>Next article <i class="fas fa-arrow-right"></i> </h4>
           <p>{{$list.nextPost.title}}</p>
         </router-link>
       </div>
@@ -20,13 +20,13 @@
     <div class="flex justify-center">
       <div v-if="!$list.lastPost && $list.nextPost" class="m-10 shadow-2xl w-1/2">
         <router-link :to="$list.nextPost.regularPath" class="hover:text-indigo-700">
-          <h4>go to Next article =></h4>
+          <h4>Next article <i class="fas fa-arrow-right"></i></h4>
           <p>{{$list.nextPost.title}}</p>
         </router-link>
       </div>
       <div v-if="!$list.nextPost && $list.lastPost" class="m-10 shadow-2xl w-1/2">
         <router-link :to="$list.lastPost.regularPath" class="hover:text-indigo-700">
-          <h4>go to Prev article <=</h4>
+          <h4>Prev article <i class="fas fa-arrow-left"></i></h4>
           <p>{{$list.lastPost.title}}</p>
         </router-link>
       </div>
