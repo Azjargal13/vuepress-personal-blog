@@ -5,15 +5,18 @@
         <span class="header-title">{{ $page.title }}</span>
 
         <p v-for="category in $page.frontmatter.categories" :key="category.id" class="text-xl">
-          @{{category}}
+        <i class="fab fa-slack-hash"></i>
+        {{category}}
           <span class="m-2">|</span>
 
+           <i class="fas fa-tag" v-if="$page.frontmatter.tag"></i>
           <span
             v-for="tag in $page.frontmatter.tag"
             :key="tag.id"
             class="text-xl mr-3"
             id="tag"
-          >#{{tag}}</span>
+          >
+          {{tag}}</span>
         </p>
 
         <div class="p-4 text-right grid grid-cols-1" v-if="$frontmatter.date">
@@ -21,6 +24,7 @@
             <!-- <span>
               <img src="https://img.icons8.com/officexs/16/000000/time.png" />
             </span>-->
+            <i class="fas fa-clock"></i>
             {{$frontmatter.date | sliceText}}
           </p>
         </div>

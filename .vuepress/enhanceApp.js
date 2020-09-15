@@ -5,6 +5,8 @@
 import VueKinesis from "vue-kinesis"
 import ImgLazy from 'vuepress-plugin-img-lazy/ImgLazy'
 
+import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/js/all.js'
 // import "./theme/styles/base.css"
 // import "./theme/styles/index.css"
 
